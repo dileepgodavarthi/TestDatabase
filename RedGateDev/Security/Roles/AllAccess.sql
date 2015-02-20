@@ -1,0 +1,3 @@
+CREATE ROLE [AllAccess]
+AUTHORIZATION [dbo]
+GO
