@@ -46,7 +46,7 @@ BEGIN TRY
 			con.[WorkPhone], con.[CellPhone], con.[HomePhone], con.[PreferredContactType], con.[Username],
 			con.[StartTime], con.[EndTime], con.[OffHoursPreferredContactType], con.[OnCallAdmin]
 		FROM [OnCallContacts] con			
-		ORDER BY con.[FirstName], con.[LastName]
+		ORDER BY con.[FirstName]
 
 END TRY
 
